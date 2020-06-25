@@ -213,9 +213,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:t2mb Setup"
+        "ProductName" = "8:text2mojibake"
         "ProductCode" = "8:{58709A36-67E1-4B06-A95D-44A456F065E5}"
-        "PackageCode" = "8:{7BF1CD21-6B04-4E0E-B856-B6B3CBC98013}"
+        "PackageCode" = "8:{56CC3905-C967-46BD-AA6D-5E48A6F1C83E}"
         "UpgradeCode" = "8:{AAC0758D-C3E7-4951-B09C-90815662CD79}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
