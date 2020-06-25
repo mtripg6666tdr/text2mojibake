@@ -8,7 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99B8943B-8D84-418F-A2C7-92B75591664B}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		icon.ico = icon.ico
 		README.md = README.md
+		text2mojibake.png = text2mojibake.png
 	EndProjectSection
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "t2mb Setup", "t2mb Setup\t2mb Setup.vdproj", "{ACA6048F-D350-4338-A1FF-5906C6AB0638}"
