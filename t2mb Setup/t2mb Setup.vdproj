@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F0849148689D4E57A60673309B088380"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_08C372EF96104D238EE75DEC246126E8"
         "MsmSig" = "8:_UNDEFINED"
@@ -74,6 +80,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -121,6 +135,26 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F0849148689D4E57A60673309B088380"
+            {
+            "SourcePath" = "8:..\\text2mojibake\\Support Page.url"
+            "TargetName" = "8:Support Page.url"
+            "Tag" = "8:"
+            "Folder" = "8:_BD31021F34F54927935625E6CA7F7C8E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
@@ -181,7 +215,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:t2mb Setup"
         "ProductCode" = "8:{58709A36-67E1-4B06-A95D-44A456F065E5}"
-        "PackageCode" = "8:{9FABFDB4-6F8C-4B5B-80FC-6BDA88D475AD}"
+        "PackageCode" = "8:{7BF1CD21-6B04-4E0E-B856-B6B3CBC98013}"
         "UpgradeCode" = "8:{AAC0758D-C3E7-4951-B09C-90815662CD79}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
