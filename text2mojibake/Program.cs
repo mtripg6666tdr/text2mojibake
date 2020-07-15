@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,11 @@ namespace text2mojibake
         [STAThread]
         static void Main()
         {
-            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
+            string DefaultCulture = "ja";
+            if(File.Exists(Helper.GetFullPath("locale.lc"))){
+                DefaultCulture = File.ReadAllText(Helper.GetFullPath("locale.lc"));
+            }
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(DefaultCulture);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(true);
