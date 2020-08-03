@@ -53,6 +53,10 @@ namespace text2mojibake
 
         private void UpdateOriginalCombo()
         {
+            if(this.OriginalTextHolder.Text != string.Empty)
+            {
+                return;
+            }
             this.OriginalTextHolder.Items.Clear();
             foreach (string v in Properties.Settings.Default.ConvertHistory)
             {

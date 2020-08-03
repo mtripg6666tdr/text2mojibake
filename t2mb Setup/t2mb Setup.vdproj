@@ -56,6 +56,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -214,15 +222,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:text2mojibake"
-        "ProductCode" = "8:{58709A36-67E1-4B06-A95D-44A456F065E5}"
-        "PackageCode" = "8:{56CC3905-C967-46BD-AA6D-5E48A6F1C83E}"
+        "ProductCode" = "8:{FFF88C89-873C-4BD9-AAC2-EDFA5572D53E}"
+        "PackageCode" = "8:{F5EB3AF3-9B70-4C11-A6A5-262526EB0D92}"
         "UpgradeCode" = "8:{AAC0758D-C3E7-4951-B09C-90815662CD79}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.1.0"
         "Manufacturer" = "8:mtripg6666tdr"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/mtripg6666tdr/text2mojibake"
